@@ -1,0 +1,43 @@
+.cards-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 9px;
+	justify-content: center;
+}
+.card {
+	border-radius: 5px;
+	max-width: 150px;
+	justify-content: center;
+	padding: 5px 3px;
+	background-color: #4659B3;
+}
+.card__title {
+	text-align: center;
+	font-weight: 700;
+	font-size: 1.2rem;
+}
+.card__desc {
+	margin-top: 4px;
+	text-align: center;
+	font-weight: 300;
+	font-size: 0.9rem;
+}
+.card__btn {
+	border-radius: 5px;
+	margin-top: 8px;
+	display: flex;
+	justify-self: center;
+	align-self: end;
+	background: #2840bd;
+	border: 2px solid #2840bd;
+	font-size: 1.3rem;
+	padding: 2px;
+	cursor: pointer;
+	transition: transform 0.3s;
+}
+.card__btn a {
+	color: white;
+}
+.card__btn:hover {
+	transform: scale(1.05);
+}

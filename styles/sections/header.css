@@ -1,0 +1,18 @@
+.headerBlock {
+	display: flex;
+	justify-content: space-between;
+	border-radius: 0 0 8px 8px;
+	padding: 5px 5px;
+	
+	user-select: none;
+}
+
+.links * {
+	text-decoration: none;
+	font-size: 28px;
+	text-transform: uppercase;
+	margin: 0 7px;
+}
+.links a {
+	color: PowderBlue;
+}
