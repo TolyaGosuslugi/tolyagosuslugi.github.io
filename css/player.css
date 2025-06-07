@@ -11,6 +11,10 @@
 	width: 25px;
 	cursor: pointer;
 }
+#volumeButton {
+	width: 25px;
+	cursor: pointer;
+}
 
 input[type="range"] {
 	accent-color: #8C94BA;
