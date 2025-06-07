@@ -6,12 +6,21 @@
         <meta property="og:image" content="https://tolya1337.ru/img/ronaldo.jpg">
         <meta property="og:type" content="website">
 
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/player.js"></script>
+
         <title>толик</title>
     </head>
 
     <body>
-        <div>
+        <div class="wrapper">
+            <video src="img/pricewepay.mp4" class="video-content" id="playerAudio" autoplay muted loop></video>
 
+            <div class="player" title="Music Player">
+                <img id="playButton" src="img/player/pause.svg">
+			    <img id="volumeButton" src="img/player/volume-off.svg">
+			    <input type="range" id="volume" min="0" max="100">
+		    </div>
         </div>
     </body>
 </html>

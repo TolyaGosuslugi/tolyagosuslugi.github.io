@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu');
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    /* background-color: #344285; */
+    background-color: black;
+	color: white;
+	font-family: Ubuntu, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.video-content {
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+}
+
+.player {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
