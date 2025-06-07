@@ -1,13 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu');
 
+:root {
+    --mainBG: #344285;
+    --secondBG: #283366;
+    --text: #FAF8F6;
+    --border: #1a265a;
+
+    --headerLink: #1682d4;
+    --headerUnavalible: #1c69a5;
+}
+
 * {
     box-sizing: border-box;
 }
 
 body, html {
-    height: 100%;
-    /* background-color: #344285; */
-    background-color: black;
+    background-color: var(--mainBG);
 	color: white;
 	font-family: Ubuntu, sans-serif;
 }
@@ -25,20 +33,7 @@ ul, ol {
     padding: 0;
 }
 
-.wrapper {
-    height: 100vh;
-    overflow: hidden;
-    position: relative;
-}
-
-.video-content {
-    width: 100%;
-    height: 100%;
-    /* object-fit: cover; */
-}
-
-.player {
-    position: absolute;
-    top: 0;
-    left: 0;
+.container {
+    max-width: 800px;
+    margin: 0 auto;
 }
