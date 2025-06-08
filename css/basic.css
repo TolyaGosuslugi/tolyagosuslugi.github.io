@@ -3,11 +3,6 @@
 :root {
     --mainBG: #344285;
     --secondBG: #283366;
-    --text: #FAF8F6;
-    --border: #1a265a;
-
-    --headerLink: #1682d4;
-    --headerUnavalible: #1c69a5;
 }
 
 * {
