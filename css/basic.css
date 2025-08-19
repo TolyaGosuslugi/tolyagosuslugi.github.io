@@ -15,6 +15,10 @@ body, html {
 	font-family: Ubuntu, sans-serif;
 }
 
+/* img {
+    max-width: 100%;
+} */
+
 a {
     text-decoration: none;
 }
