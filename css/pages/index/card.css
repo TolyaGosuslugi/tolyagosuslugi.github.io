@@ -21,6 +21,7 @@
 
 .card__links, .card__genders, .card__friends, .card__other {
     display: flex;
+	flex-wrap: wrap;
     column-gap: 5px;
 }
 
