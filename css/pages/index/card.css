@@ -25,6 +25,11 @@
     column-gap: 5px;
 }
 
+.card__links {
+    max-width: 250px;
+    justify-content: center;
+}
+
 .card__links-item img, .card__genders-item img, .card__friends img, .card__other-item img {
     width: 55px;
     transition: transform 0.3s;
