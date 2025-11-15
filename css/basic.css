@@ -1,16 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu');
 
-:root {
-    --mainBG: #344285;
-    --secondBG: #283366;
-}
-
 * {
     box-sizing: border-box;
 }
 
 body, html {
-    background-color: var(--mainBG);
+    background-color: #344285;
 	color: white;
 	font-family: Ubuntu, sans-serif;
 }
