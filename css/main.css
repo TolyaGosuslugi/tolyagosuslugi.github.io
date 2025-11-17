@@ -1,6 +1,10 @@
 @import url('normalize.css');
 @import url('basic.css');
 
-@import url('pages/index/card.css');
+@import url('header.css');
+@import url('content.css');
 
-@import url('pages/index/header.css');
+@import url('avatar.css');
+/* @import url('donate.css'); */
+
+@import url('favmusic.css');

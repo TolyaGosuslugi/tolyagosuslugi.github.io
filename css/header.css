@@ -1,0 +1,20 @@
+.header {
+    padding-top: 25px;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.header__list-item {
+    line-height: 14px;
+}
+/* .header__list-item a {transition: font-size 0.2s} */
+
+/* .header__list-item a:hover {
+    font-size: 24px
+} */

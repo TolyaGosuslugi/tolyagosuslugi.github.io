@@ -1,0 +1,30 @@
+.content__title {
+    font-size: 22px;
+    font-weight: 700;
+}
+.content__title + ul {
+    margin-top: 10px
+}
+.content__text {}
+
+/* friends */
+.friends {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.friends__item {
+    display: flex;
+    flex-direction: column;
+}
+.friends__item-name {justify-self: center}
+.friends__item img {transition: transform 0.2s, scale 0.2s}
+.friends__item:hover img {transform: translate(0, -5%) scale(105%)}
+.friends__item:active img {transform: translate(0, +5%) scale(95%)}
+
+/* smthg interesting */
+/* .russia, .russia * { // same as basic.css:16
+    background-image: linear-gradient(white 30%, blue, red 83%);
+    color: transparent;
+    background-clip: text;
+} */

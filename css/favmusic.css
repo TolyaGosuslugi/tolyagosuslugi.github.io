@@ -1,0 +1,4 @@
+.artists, .albums {}
+.artists__item:before, .albums__item::before {
+    content: "<3 "
+}

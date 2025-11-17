@@ -2,20 +2,23 @@
 
 * {
     box-sizing: border-box;
+    color: #a49bdd;
 }
 
-body, html {
-    background-color: #344285;
-	color: white;
+body {
+    background-color: #0F0C24;
+	/* color: #8478d1; */
+    padding: 0 15px 15px 15px;
+    font-size: 18px;
 	font-family: Ubuntu, sans-serif;
 }
 
-/* img {
-    max-width: 100%;
-} */
-
-a {
+a, a * { /* The second "a *" ensures the color is not lost when translating the page using Yandex Browser's built-in translator (and possibly other browsers). */
+    color: #6d61c9;
     text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
 
 li {
@@ -28,10 +31,6 @@ ul, ol {
 }
 
 .container {
-    max-width: 800px;
-    margin: 0 auto;
-}
-.header__container {
-    max-width: 350px;
+    max-width: 500px;
     margin: 0 auto;
 }

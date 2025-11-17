@@ -1,0 +1,12 @@
+.mypfp {
+    width: 200px;
+    height: auto;
+    max-width: 100%;
+    border-radius: 5%;
+}
+.friends__item-pfp {
+    width: 110px;
+    height: auto;
+    max-width: 100%;
+    border-radius: 5%;
+}
