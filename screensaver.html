@@ -12,27 +12,47 @@
     </head>
 
     <body>
-        <div class="container">
-            <div class="header">
-                <ul class="header__list">
-                    <li class="header__list-item"><a href="index.html">home</a></li>
-                    ★
-                    <li class="header__list-item"><a href="projects.html">projects</a></li>
-                    ★
-                    <li class="header__list-item"><a href="donate.html">donate</a></li>
-                    ★
-                    <li class="header__list-item"><a href="favmusic.html">fav music</a></li>
-                </ul>
-            </div>
-
-            <div class="content">
-                <!-- <div class="pizda">ffff</div> -->
-            </div>
-
-            <div class="screensaver">
-                <div class="pizda">lkjfglkjdfg</div>
-            </div>
+        <div class="screensaver">
+            <div class="screensaver__time">00:00:00</div>
+            <img src="img/konata.gif" class="screensaver__img">
         </div>
+
+        <div class="sidepanel__hoverzone"></div>
+
+        <div class="sidepanel">
+            <h3>Clock</h3>
+            <label>
+                <input type="checkbox" id="showHours">
+                <span>Show Hours</span>
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" id="showMinutes">
+                <span>Show Minutes</span>
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" id="showSeconds">
+                <span>Show Seconds</span>
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" id="showKonata">
+                <span>Show Konata</span>
+            </label>
+
+            <!-- ////////////////////////// -->
+
+            <h3>Music</h3>
+            <label>
+                <input type="checkbox" id="isMusic">
+                <span>Music</span>
+            </label>
+            <br>
+            <input type="range" id="musicVol" min="0" max="100">
+            <span id="musicVolText">000%</span>
+        </div>
+
     <script src="js/screensaver.js"></script>
     </body>
 </html>

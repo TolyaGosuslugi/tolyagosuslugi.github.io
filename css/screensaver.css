@@ -1,0 +1,19 @@
+.sidepanel, .sidepanel__hoverzone {
+    display: inline-block;
+    position: absolute;
+    top: 25%;
+    right: 0;
+}
+.sidepanel {
+    background-color: #00000030;
+    border-radius: 15px;
+    padding: 15px;
+
+    transition: right 0.2s ease-out;
+}
+.sidepanel__hoverzone {
+    width: 100px;
+    /* height: 287px; */
+}
+
+.sidepanel span {user-select: none}

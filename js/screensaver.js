@@ -1,43 +1,33 @@
-////////////////////////// пременые //////////////////////////
-const header = document.querySelector(".header");
-const content = document.querySelector(".content");
-const screensaver = document.querySelector(".screensaver");
+const screensaverTime = document.querySelector('.screensaver__time');
+const screensaverImg = document.querySelector('.screensaver__img');
+const sidepanel = document.querySelector('.sidepanel');
+const sidepanelHoverzone = document.querySelector(".sidepanel__hoverzone");
 
-screensaver.hidden = true;
+console.log(sidepanel + "\n" + sidepanel.offsetWidth + "\n" + -sidepanel.offsetWidth + "px" + "\n" + sidepanel.offsetHeight);
+sidepanelHoverzone.style.height = sidepanel.offsetHeight + "px";
+sidepanel.style.right = -sidepanel.offsetWidth + "px";
 
-let clockStatus = false;
-
-////////////////////////// фунции //////////////////////////
-function onUpdateClockStatus() {
-    if (clockStatus) {
-        header.hidden = true;
-        content.hidden = true;
-        screensaver.hidden = false;
-    }
-    else {
-        header.hidden = false;
-        content.hidden = false;
-        screensaver.hidden = true;
-    }
-}
-
-function OnEnterSite() {
-    if (window.innerHeight == screen.height)
-        clockStatus = true;
-    onUpdateClockStatus();
-}
-
-////////////////////////// аа ета чо скелет типо скелет костя //////////////////////////
-OnEnterSite();
-
-// document.querySelector(".pizda").addEventListener('click', () => {
-//     header.hidden = true;
-// });
-
-document.addEventListener('keydown', e => {
-    if (e.key === 'F11') {
-        clockStatus = !clockStatus;
-        console.log(clockStatus);
-        onUpdateClockStatus();
-    }
+sidepanelHoverzone.addEventListener('mouseenter', () => {
+    sidepanel.style.right = 0;
 });
+sidepanel.addEventListener('mouseleave', () => {
+    sidepanel.style.right = -sidepanel.offsetWidth + "px";
+});
+
+function updateClock() {
+    //from https://codepen.io/EKV113/pen/rXKBRg
+    let currentTime = new Date();
+    let currentHours = currentTime.getHours();
+    let currentMinutes = currentTime.getMinutes();
+    let currentSeconds = currentTime.getSeconds();
+
+    currentMinutes = (currentMinutes < 10 ? "0" : "") + currentMinutes;
+    currentSeconds = (currentSeconds < 10 ? "0" : "") + currentSeconds;
+    currentHours = (currentHours < 10 ? "0": "") + currentHours;
+
+    let currentTimeString =  currentHours + ":" + currentMinutes + ":" + currentSeconds;
+
+    screensaverTime.innerHTML = currentTimeString;
+}
+
+setInterval('updateClock()', 100);

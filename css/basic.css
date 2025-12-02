@@ -11,6 +11,7 @@ body {
     padding: 0 15px 15px 15px;
     font-size: 18px;
 	font-family: Ubuntu, sans-serif;
+    overflow-x: hidden;
 }
 
 a, a * { /* The second "a *" ensures the color is not lost when translating the page using Yandex Browser's built-in translator (and possibly other browsers). */
