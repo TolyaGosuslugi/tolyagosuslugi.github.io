@@ -5,3 +5,7 @@
     color: white;
     background-color: #1d1d1d33;
 }
+
+.pixelated {
+    image-rendering: pixelated;
+}
