@@ -14,7 +14,7 @@ if (xmlHttp.responseText != 0) {
 
     const lastPlayed = document.createElement("div");
     lastPlayed.setAttribute("class", "content__text");
-    lastPlayed.innerHTML = (lastParse["nowplaying"] ? "now playing" : "last played")
+    lastPlayed.innerHTML = (lastParse["nowplaying"] ? "now listening to" : "last played")
                             + ": <i><a href=\"" + lastParse["url"] + "\" target=\"_blank\">" + lastParse["artist"] + " - " + lastParse["name"] + "</a></i>";
 
     lastPlayedBlock.append(lastPlayed, br1, br2);
