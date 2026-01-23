@@ -2,9 +2,17 @@
     font-size: 22px;
     font-weight: 700;
 }
-.content__title + ul {
+.content__title + ul, .content__title-bigger + ul, .content__title-bigger + .content__title {
     margin-top: 10px
 }
+
+.content__title-bigger {
+    margin-left: 10px;
+    font-size: 26px;
+    font-weight: 700;
+    font-style: italic;
+}
+
 .content__text {}
 
 /* friends */
@@ -21,10 +29,3 @@
 .friends__item img {transition: transform 0.2s, scale 0.2s}
 .friends__item:hover img {transform: translate(0, -5%) scale(105%)}
 .friends__item:active img {transform: translate(0, +5%) scale(95%)}
-
-/* smthg interesting */
-/* .russia, .russia * { // same as basic.css:16
-    background-image: linear-gradient(white 30%, blue, red 83%);
-    color: transparent;
-    background-clip: text;
-} */
