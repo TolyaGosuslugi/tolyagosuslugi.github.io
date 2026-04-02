@@ -3,6 +3,8 @@
 * {
     box-sizing: border-box;
     color: #a49bdd;
+    /* word-wrap: break-word;
+    word-wrap: anywhere; */
 }
 
 body {
