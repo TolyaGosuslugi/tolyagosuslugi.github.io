@@ -1,0 +1,13 @@
+.faq {}
+.faq li {
+    margin-bottom: 24px;
+}
+.faq li:last-child {
+    margin-bottom: 0;
+}
+
+.faq__title {
+    font-size: 22px;
+    font-weight: 700;
+}
+.faq__text {}
