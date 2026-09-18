@@ -21,6 +21,11 @@
 .header__list-item:hover a {
     text-shadow: 0 0 20px;
 }
+/* thx to OctoBanon (https://github.com/OctoBanon-Main / https://octobanon.com) */
+.header__list-item:not(:last-child)::after {
+    content: "★";
+    margin-left: 5px;
+}
 
 /* .header__list-item a {transition: font-size 0.2s} */
 
