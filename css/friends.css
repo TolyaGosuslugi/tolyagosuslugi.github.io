@@ -13,7 +13,6 @@
     align-items: center;
     row-gap: 4px;
 }
-/* .friends__item-name {justify-self: center} */
 .friends__item img {transition: transform 0.2s, scale 0.2s}
 .friends__item:hover img {transform: translate(0, -5%) scale(105%)}
 .friends__item:active img {transform: translate(0, +5%) scale(95%)}

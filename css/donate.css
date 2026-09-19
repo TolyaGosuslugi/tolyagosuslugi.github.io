@@ -1,0 +1,6 @@
+.donate__list {}
+
+.donate__list li {
+    margin-bottom: 24px;
+}
+.donate__list li:last-child { margin-bottom: 0 }
