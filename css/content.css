@@ -15,7 +15,7 @@
 
 .content__text {}
 
-/*  */
+/* Wrap letters in links */
 .links, .donate {
     word-wrap: break-word;
     word-break: break-all;

@@ -1,0 +1,16 @@
+.banners {
+    margin-top: 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 4px;
+}
+
+.banners__item {}
+
+.banners__item img {
+    width: 88px;
+    height: 31px;
+    image-rendering: crisp-edges;
+}
