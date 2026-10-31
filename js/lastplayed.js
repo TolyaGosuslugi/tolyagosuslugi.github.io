@@ -16,7 +16,11 @@ async function fetchLastFM() {
                           // it'll be like: "now listening to: Linkin Park - Rn@awy"(text `Artist - Track` is clickable)
                           // or "last played: Limp Bizkit - Rib"(text `Artist - Track` is clickable)
 
-  lastPlayedBlock.append(lastPlayed);
+  const poweredBy = document.createElement("div");
+  poweredBy.classList.add("faq__text", "poweredBy");
+  poweredBy.innerHTML = "(powered by <a href=\"https://codeberg.org/inuhepott/kuunnella\" target=\"_blank\">kuunnella</a>)";
+  
+  lastPlayedBlock.append(lastPlayed, poweredBy);
 }
 
 window.addEventListener("load", fetchLastFM)
