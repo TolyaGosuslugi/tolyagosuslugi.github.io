@@ -12,5 +12,5 @@
 .banners__item img {
     width: 88px;
     height: 31px;
-    image-rendering: crisp-edges;
+    /*image-rendering: crisp-edges;*/
 }

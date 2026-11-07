@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="{{.Title}} | tolya1337.ru">
+        <meta property="og:description" content="tolya gosuslugi :3">
+        <meta property="og:image" content="/img/ronaldo.jpg">
+        <meta name="theme-color" content="#0F0C24">
+
+	    <link rel="icon" type="image/png" href="/favicon.ico"/>
+        <link rel="stylesheet" href="/css/main.css">
+
+        <title>{{.Title}} | tolya1337.ru</title>
+    </head>
+
+    <body>
+        <div class="container">
+            {{template "parts/header" .}}
+
+            <div class="content">
+                {{embed}}
+            </div>
+    </body>
+</html>

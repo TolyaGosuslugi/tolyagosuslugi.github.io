@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu');
+
+* {
+    box-sizing: border-box;
+    color: #a49bdd;
+    /* word-wrap: break-word;
+    word-wrap: anywhere; */
+}
+
+body {
+    background-color: #0F0C24;
+	/* color: #8478d1; */
+    padding: 0 15px 15px 15px;
+    font-size: 18px;
+	font-family: Ubuntu, sans-serif;
+    overflow-x: hidden;
+}
+
+a, a * { /* The second "a *" ensures the color is not lost when translating the page using Yandex Browser's built-in translator (and possibly other browsers). */
+    color: #6d61c9;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+li {
+    list-style: none;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 475px;
+    margin: 0 auto;
+
+}
