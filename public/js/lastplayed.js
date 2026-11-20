@@ -1,7 +1,7 @@
 const lastPlayedBlock = document.getElementById('lastPlayed');
 
 async function fetchLastFM() {
-  const data = await fetch("https://lastfm.hirasawa.ru/kuunnella?user=TolyaGosuslugi")
+  const data = await fetch("https://lastfm.hirasawa.ru/kuunnella?user=TolyaGosuslugi&backend=lastfm")
   // powered by https://codeberg.org/inuhepott/kuunnella
   // ily bro
 
