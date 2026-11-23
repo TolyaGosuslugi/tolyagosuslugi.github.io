@@ -1,0 +1,17 @@
+.poweredBy {
+    font-size: 12px;
+    opacity: 60%;
+}
+
+.copy {
+    display: inline-block;
+    cursor: pointer;
+    /*padding: 4px;*/
+}
+.copy:hover {
+    background-color: #FFFFFF1A;
+    border-radius: 5px;
+}
+.copy:active {
+    background-color: #FFFFFF33;
+}
