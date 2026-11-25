@@ -25,40 +25,14 @@
 
 <div class="content__title">friends:</div>
 <ul class="friends">
+    {{range .Friends}}
     <li class="friends__item">
-        <a href="https://inu.hepott.moe/">
-            <img src="https://inu.hepott.moe/img/inuhepott.webp" alt="inuhepott" class="friends__item-pfp">
-            <div class="friends__item-name">inuhepott</div>
+        <a href="{{.Link}}">
+            <img src="{{.Pfp}}" alt="{{.Name}}" class="friends__item-pfp">
+            <div class="friends__item-name">{{.Name}}</div>
         </a>
     </li>
-
-    <li class="friends__item">
-        <a href="https://meltude.me">
-            <img src="https://meltude.me/img/root/pfp.webp" alt="Meltude" class="friends__item-pfp">
-            <div class="friends__item-name">Meltude</div>
-        </a>
-	</li>
-
-    <li class="friends__item">
-        <a href="https://allocator.pages.gay/">
-            <img src="https://allocator.pages.gay/avatar.jpg" alt="alloc4tor" class="friends__item-pfp">
-            <div class="friends__item-name">alloc4tor</div>
-        </a>
-	</li>
-
-	<li class="friends__item">
-        <a href="https://octobanon.com">
-            <img src="https://avatars.githubusercontent.com/u/82901151" alt="OctoBanon" class="friends__item-pfp">
-            <div class="friends__item-name">OctoBanon</div>
-        </a>
-    </li>
-
-    <li class="friends__item">
-        <a href="https://shadowcj.site">
-            <img src="https://avatars.githubusercontent.com/u/155315982" alt="ShadowCj" class="friends__item-pfp">
-            <div class="friends__item-name">ShadowCj</div>
-        </a>
-    </li>
+    {{end}}
 </ul>
 
 <br><br>
