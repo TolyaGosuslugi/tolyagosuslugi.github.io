@@ -8,20 +8,16 @@
     <li class="banners__item">
         <a href="https://hirasawa.ru" target="_blank">
             <img src="https://hirasawa.ru/img/88x31.gif" alt="hirasawa.ru | 88x31">
-                    <!-- or: https://tolya1337.ru/img/88x31_h.gif -->
+            <!-- or: https://tolya1337.ru/img/88x31_h.gif -->
         </a>
     </li>
 </ul>
 <ul class="banners">
+    {{range .Banners}}
     <li class="banners__item">
-        <a href="https://inu.hepott.moe" target="_blank">
-            <img src="https://inu.hepott.moe/img/inuhepott_badge.webp" alt="inu.hepott.moe | 88x31">
+        <a href="{{.Link}}" target="_blank">
+            <img src="{{.Pfp}}">
         </a>
     </li>
-    
-    <li class="banners__item">
-        <a href="https://meltude.me" target="_blank">
-            <img src="https://meltude.me/img/root/MeltingAsh.webp" alt="meltude.me | 88x31">
-        </a>
-    </li>
+    {{end}}
 </ul>
