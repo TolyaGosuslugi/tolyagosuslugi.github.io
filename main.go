@@ -41,7 +41,7 @@ func main() {
 			"Friends": []Friends{
 				{ Name: "inuhepott", Link: "https://inu.hepott.moe", Pfp: "https://inu.hepott.moe/img/inuhepott.webp" },
 				{ Name: "Meltude", Link: "https://meltude.me", Pfp: "https://meltude.me/img/root/pfp.webp" },
-				{ Name: "alloc4tor", Link: "https://allocator.pages.gay", Pfp: "https://allocator.pages.gay/avatar.jpg" },
+				{ Name: "alloc4tor", Link: "https://allocator.pages.gay", Pfp: "https://allocator.pages.gay/img/avatar.webp" },
 				{ Name: "OctoBanon", Link: "https://octobanon.com", Pfp: "https://avatars.githubusercontent.com/u/82901151" },
 				{ Name: "ShadowCj", Link: "https://shadowcj.site", Pfp: "https://avatars.githubusercontent.com/u/155315982" },
 			},
