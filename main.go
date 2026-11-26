@@ -47,15 +47,15 @@ func main() {
 			"AvatarNum": random,
 			"Friends": []List{
 				{ Name: "inuhepott", Link: "https://inu.hepott.moe", Pfp: "https://inu.hepott.moe/img/inuhepott.webp" },
-				{ Name: "Meltude", Link: "https://meltude.me", Pfp: "https://meltude.me/img/root/pfp.webp" },
+				{ Name: "Meltude", Link: "https://meltu.de", Pfp: "https://meltu.de/img/root/pfp.webp" },
 				{ Name: "alloc4tor", Link: "https://allocator.pages.gay", Pfp: "https://allocator.pages.gay/img/avatar.webp" },
 				{ Name: "OctoBanon", Link: "https://octobanon.com", Pfp: "https://avatars.githubusercontent.com/u/82901151" },
 				{ Name: "ShadowCj", Link: "https://shadowcj.site", Pfp: "https://avatars.githubusercontent.com/u/155315982" },
 			},
 			"Banners": []List{
 				{ Link: "https://inu.hepott.moe", Pfp: "https://inu.hepott.moe/img/inuhepott_badge.webp" },
-				{ Link: "https://meltude.me", Pfp: "https://meltude.me/img/root/MeltingAsh.webp" },
-				{ Link: "https://salfetkk.fun", Pfp: "https://salfetkk.fun/images/88x31.png" },
+				{ Link: "https://meltu.de", Pfp: "https://meltu.de/img/root/MeltingAsh.webp" },
+				{ Link: "https://salfetkk.fun", Pfp: "https://salfetkk.fun/88x31.png" },
 			},
 		}, "layouts/main")
 	})
