@@ -46,14 +46,14 @@ func main() {
 			"Title": "home",
 			"AvatarNum": random,
 			"Friends": []List{
-				{ Name: "inuhepott", Link: "https://inu.hepott.moe", Pfp: "https://inu.hepott.moe/img/inuhepott.webp" },
+				{ Name: "lumihepott", Link: "https://lumi.hepott.moe", Pfp: "https://lumi.hepott.moe/img/inuhepott.webp" },
 				{ Name: "Meltude", Link: "https://meltu.de", Pfp: "https://meltu.de/img/root/pfp.webp" },
 				{ Name: "alloc4tor", Link: "https://allocator.pages.gay", Pfp: "https://allocator.pages.gay/img/avatar.webp" },
 				{ Name: "OctoBanon", Link: "https://octobanon.com", Pfp: "https://avatars.githubusercontent.com/u/82901151" },
 				{ Name: "ShadowCj", Link: "https://shadowcj.site", Pfp: "https://avatars.githubusercontent.com/u/155315982" },
 			},
 			"Banners": []List{
-				{ Link: "https://inu.hepott.moe", Pfp: "https://inu.hepott.moe/img/inuhepott_badge.webp" },
+				{ Link: "https://lumi.hepott.moe", Pfp: "https://lumi.hepott.moe/img/lumihepott_badge.webp" },
 				{ Link: "https://tolya1337.ru", Pfp: "https://tolya1337.ru/img/88x31.webp" },
 				{ Link: "https://meltu.de", Pfp: "https://meltu.de/img/root/MeltingAsh.webp" },
 				{ Link: "https://hirasawa.ru", Pfp: "https://hirasawa.ru/img/88x31.gif" },
