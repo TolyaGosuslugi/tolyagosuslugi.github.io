@@ -54,10 +54,10 @@ func main() {
 			},
 			"Banners": []List{
 				{ Link: "https://lumi.hepott.moe", Pfp: "https://lumi.hepott.moe/img/lumihepott_badge.webp" },
-				{ Link: "https://tolya1337.ru", Pfp: "https://tolya1337.ru/img/88x31.webp" },
 				{ Link: "https://meltu.de", Pfp: "https://meltu.de/img/root/MeltingAsh.webp" },
-				{ Link: "https://hirasawa.ru", Pfp: "https://hirasawa.ru/img/88x31.gif" },
+				{ Link: "https://tolya1337.ru", Pfp: "https://tolya1337.ru/img/88x31.webp" },
 				{ Link: "https://salfetkk.fun", Pfp: "https://salfetkk.fun/88x31.png" },
+				{ Link: "https://hirasawa.ru", Pfp: "https://hirasawa.ru/img/88x31.gif" },
 			},
 		}, "layouts/main")
 	})
