@@ -1,6 +1,7 @@
 .banners {
-    max-width: 300px;
-    margin: 12px auto 0 auto;
+    /*max-width: 300px;*/
+    /*margin: 12px auto 0 auto;*/
+    margin-top: 12px;
 
     display: flex;
     flex-wrap: wrap;
