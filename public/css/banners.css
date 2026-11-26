@@ -1,7 +1,9 @@
 .banners {
-    margin-top: 12px;
+    max-width: 300px;
+    margin: 12px auto 0 auto;
 
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     column-gap: 4px;
