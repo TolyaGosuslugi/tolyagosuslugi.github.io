@@ -54,8 +54,8 @@ func main() {
 			},
 			"Banners": []List{
 				{ Link: "https://inu.hepott.moe", Pfp: "https://inu.hepott.moe/img/inuhepott_badge.webp" },
-				{ Link: "https://meltu.de", Pfp: "https://meltu.de/img/root/MeltingAsh.webp" },
 				{ Link: "https://tolya1337.ru", Pfp: "https://tolya1337.ru/img/88x31.webp" },
+				{ Link: "https://meltu.de", Pfp: "https://meltu.de/img/root/MeltingAsh.webp" },
 				{ Link: "https://hirasawa.ru", Pfp: "https://hirasawa.ru/img/88x31.gif" },
 				{ Link: "https://salfetkk.fun", Pfp: "https://salfetkk.fun/88x31.png" },
 			},
