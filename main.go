@@ -46,7 +46,7 @@ func main() {
 			"Title": "home",
 			"AvatarNum": random,
 			"Friends": []List{
-				{ Name: "lumihepott", Link: "https://lumi.hepott.moe", Pfp: "https://lumi.hepott.moe/img/inuhepott.webp" },
+				{ Name: "lumihepott", Link: "https://lumi.hepott.moe", Pfp: "https://lumi.hepott.moe/img/lumihepott.webp" },
 				{ Name: "Meltude", Link: "https://meltu.de", Pfp: "https://meltu.de/img/root/pfp.webp" },
 				{ Name: "alloc4tor", Link: "https://allocator.pages.gay", Pfp: "https://allocator.pages.gay/img/avatar.webp" },
 				{ Name: "OctoBanon", Link: "https://octobanon.com", Pfp: "https://avatars.githubusercontent.com/u/82901151" },
